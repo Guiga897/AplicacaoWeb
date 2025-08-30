@@ -73,7 +73,7 @@ export default function App() {
               onChangeText={handleInputChange}
               keyboardType="numeric"
               placeholder="1"
-              maxLength={2}
+              maxLength={100}
             />
           </View>
 
