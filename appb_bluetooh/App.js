@@ -88,6 +88,9 @@ function BleScannerComponent(){
         });
       }
     });
+    setTimeout(()=> {
+      manager.stopDeviceScan()
+    },5000)
   }
 
   
